@@ -10,15 +10,16 @@ body{
 }
 
 .izquierda{
-    background-image: linear-gradient(rgb(110, 105, 105), rgb(184, 177, 177));
+    background-image: linear-gradient(rgba(13, 147, 224, 0.822), rgb(35, 75, 23));
 
 }
 
 .derecha{
-    background-image: url(fondo.jpg);
+    background-image: url(imagenes/montanas-con-nieve-en-el-bosque-3934.jpg);
     background-size: cover;
     background-position: center;
 }
+
 
 #pantalla_dividida{
     display: flex
@@ -26,6 +27,13 @@ body{
 
 .creative{
     color: rgb(241, 239, 243);
+}
+
+.creative2{
+    color: rgb(241, 239, 243);
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
 }
 
 h1 {
@@ -43,20 +51,44 @@ p {
     width: 50%;
     margin: auto;
     margin-left: 100px;
+    text-align: justify;
 }
 a{
-    border: 4px solid white;
     padding: 20px;
     text-decoration: none;
-    color: white;
     border-radius: 30px;
-    font-weight: bold;
 
     display: inline-block;
+}
+
+.boton{
+    max-width: 500px;
     margin-top: 30px;
     margin-left: 100px;
 }
 
-.boton{
-    text-align: auto;
+.mail {
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cat {
+    height: 50px;
+    width: 50px;
+}
+
+.perfil {
+    margin-left: 300px;
+    margin-top: 300px;
+    height: 440px;
+    width: 340px;
+    border: 10px solid;
 }
